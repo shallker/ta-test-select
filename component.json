@@ -1,0 +1,24 @@
+{
+  "name": "ta-test-select",
+  "repo": "shallker/ta-test-select",
+  "description": "ta-test-select",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/jquery": "*",
+    "necolas/normalize.css": "*",
+    "shallker-wang/eventy": "*",
+    "base-ui/responsive-grid": "*",
+    "shallker-wang/style-units": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/ui-select.js"
+  ],
+  "styles": [
+    "css/ta-test-select.css"
+  ]
+}

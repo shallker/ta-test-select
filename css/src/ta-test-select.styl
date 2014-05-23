@@ -1,0 +1,75 @@
+.ui-select
+  position relative
+  height 40px
+
+  .select-components
+    position absolute
+    top 0
+    left 0
+    width 100%
+
+  .select-input
+    height 40px
+    background-color #f1f0f1
+    position relative
+
+    .input-display
+      color black
+      font-size 18px
+      height 40px
+      display table-cell
+      vertical-align middle
+      padding-left 10px
+
+    .input-selector
+      place holder
+      width 40px
+      height 40px
+      background-color #fcfcfc
+      position absolute
+      right 0
+      top 0
+      display table-cell
+      vertical-align middle
+
+      .vertical-center
+        height 40px
+        
+      .selector-arrow
+        width 0
+        height 0
+        border-width 8px
+        border-style solid
+        border-color transparent
+        border-top-color #5b5b5b
+        margin-top 4px
+
+  .select-dropdown
+    display none
+    width 100%
+
+    .option-list
+      .option
+        font-size 14px
+        padding-left 10px
+        background-color white
+
+        &.selected
+          background-color #fcfcfc
+
+        &:hover
+          background-color #fafafa
+
+        .vertical-center
+          height 40px
+
+  &.open
+    .select-dropdown
+      display block
+
+  &.expand
+    width 100%
+
+  &.primary
+    .select-components
+      box-shadow 1px 1px 1px 0px #DDD

@@ -1,0 +1,73 @@
+.ui-select {
+  position: relative;
+  height: 40px;
+}
+.ui-select .select-components {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.ui-select .select-input {
+  height: 40px;
+  background-color: #f1f0f1;
+  position: relative;
+}
+.ui-select .select-input .input-display {
+  color: #000;
+  font-size: 18px;
+  height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+.ui-select .select-input .input-selector {
+  place: holder;
+  width: 40px;
+  height: 40px;
+  background-color: #fcfcfc;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+.ui-select .select-input .input-selector .vertical-center {
+  height: 40px;
+}
+.ui-select .select-input .input-selector .selector-arrow {
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #5b5b5b;
+  margin-top: 4px;
+}
+.ui-select .select-dropdown {
+  display: none;
+  width: 100%;
+}
+.ui-select .select-dropdown .option-list .option {
+  font-size: 14px;
+  padding-left: 10px;
+  background-color: #fff;
+}
+.ui-select .select-dropdown .option-list .option.selected {
+  background-color: #fcfcfc;
+}
+.ui-select .select-dropdown .option-list .option:hover {
+  background-color: #fafafa;
+}
+.ui-select .select-dropdown .option-list .option .vertical-center {
+  height: 40px;
+}
+.ui-select.open .select-dropdown {
+  display: block;
+}
+.ui-select.expand {
+  width: 100%;
+}
+.ui-select.primary .select-components {
+  box-shadow: 1px 1px 1px 0px #ddd;
+}
